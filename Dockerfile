@@ -1,4 +1,4 @@
-FROM python:latest
+FROM python:3.9-slim-bullseye
 
 COPY ./requirements.txt ./requirements.txt
 COPY ./serve.py ./serve.py
